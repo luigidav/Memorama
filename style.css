@@ -1,0 +1,31 @@
+
+#tablero {
+    text-align: center;
+    width: 100%;
+}
+
+#tablero>div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 1%;
+  cursor: pointer;
+  transition: transform ease .3s;
+}
+#tablero>div:hover {
+  transform: scale(1.1);
+}
+
+.abrir img {
+display: inline-block;
+}
+
+.tarjeta {
+  display: none;
+  width: 100%;
+}
+
+.tarjetas {
+  width: 100%;
+  border: 1px solid;
+}
